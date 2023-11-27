@@ -9,7 +9,7 @@
     "target": "esnext",
     "module": "commonjs",
     "jsx": "react-native",
-    "types": ["react-native"]
+    "types": ["react-native", "node"],
   },
   "exclude": ["node_modules", "dist"],
   "include": ["src"]
