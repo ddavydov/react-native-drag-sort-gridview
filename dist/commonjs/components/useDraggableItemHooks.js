@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _models=require("../models");var _react=require("react");var _default=exports.default=function _default(_ref){var animDirection=_ref.animDirection;var isDraggingItem=(0,_react.useMemo)(function(){return animDirection===_models.MOVEMENT.dragging;},[animDirection]);return{isDraggingItem:isDraggingItem};};
+//# sourceMappingURL=useDraggableItemHooks.js.map
